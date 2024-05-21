@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  frontend: # Changed service name for clarity
+    container_name: portfolio1 # Changed container name for clarity
+    image: portfolio_image
+    build:
+      context: . # Path to your React project directory
+      dockerfile: Dockerfile.dev # Assuming Dockerfile is in the same directory
+    volumes:
+      - .:/app # Mount current directory for development changes
+      - /app/node_modules
+    ports:
+      - "3000:3000" # Map port 3000 for access
+    command: ["npm", "start"] # Start the React development server
+    environment:
+      - WDS_SOCKET_HOST=127.0.0.1
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - NODE_ENV=development # Set environment for development mode
+    tty: true
+#  docker compose -f docker-compose.dev.yaml up -d

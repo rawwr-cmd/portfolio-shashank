@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------
+## Basic Color
+----------------------------------------------------------------*/
+.cs-iconbox.cs-style1 {
+  max-width: 350px;
+  margin: auto;
+}
+.cs-iconbox.cs-style1 .cs-iconbox_icon {
+  margin-bottom: 25px;
+}
+.cs-iconbox.cs-style1 .cs-iconbox_title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.cs-iconbox.cs-style1 .cs-iconbox_subtitle {
+  line-height: 1.75em;
+}
+@media (max-width: 991px) {
+  .cs-iconbox.cs-style1 {
+    max-width: 100%;
+  }
+  .cs-iconbox.cs-style1 .cs-iconbox_title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+
+.cs-iconbox.cs-style2 {
+  max-width: 350px;
+  margin: auto;
+}
+.cs-iconbox.cs-style2 .cs-iconbox_icon {
+  margin-bottom: 25px;
+}
+.cs-iconbox.cs-style2 .cs-iconbox_title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.cs-iconbox.cs-style2 .cs-iconbox_subtitle {
+  line-height: 1.75em;
+}
+@media (max-width: 991px) {
+  .cs-iconbox.cs-style2 {
+    max-width: 100%;
+  }
+  .cs-iconbox.cs-style2 .cs-iconbox_title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=iconbox.css.map */

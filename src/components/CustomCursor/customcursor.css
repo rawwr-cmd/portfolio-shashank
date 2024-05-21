@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+## Basic Color
+----------------------------------------------------------------*/
+.cs-cursor_lg,
+.cs-cursor_sm {
+  position: fixed;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  will-change: transform;
+  z-index: 9999;
+}
+
+.cs-cursor_lg {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ff4a17;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+.cs-cursor_sm {
+  width: 8px;
+  height: 8px;
+  background-color: #ff4a17;
+  left: 15px;
+  top: 15px;
+  pointer-events: none;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 575px) {
+  .cs-cursor_lg,
+  .cs-cursor_sm {
+    display: none;
+  }
+}/*# sourceMappingURL=customcursor.css.map */

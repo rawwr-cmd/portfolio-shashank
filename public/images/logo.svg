@@ -1,0 +1,27 @@
+<svg width="89" height="30" viewBox="0 0 89 30" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css">
+            @font-face {
+                font-family: 'GreatVibes';
+                src: url('https://fonts.gstatic.com/s/greatvibes/v11/RWmMoKWR9v4ksMfaWd_JN9XFiaQe.ttf') format('truetype');
+            }
+
+            .cursive {
+                font-family: 'GreatVibes', cursive;
+            }
+
+            .orange {
+                fill: #FF4A17;
+            }
+
+            .white {
+                fill: white;
+            }
+        </style>
+    </defs>
+    <text x="5" y="25" font-size="25" class="cursive">
+        <tspan class="orange">S</tspan>
+        <tspan class="white" dx="-5">K</tspan>
+        <tspan class="white" dx="-5">H</tspan>
+    </text>
+</svg>
